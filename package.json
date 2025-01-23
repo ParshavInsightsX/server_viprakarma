@@ -1,0 +1,48 @@
+{
+  "name": "viprakarma-server",
+  "version": "1.0.0",
+  "description": "Server for Viprakarma Astrology and Numerology Application",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@astrodraw/astrochart": "^3.0.2",
+    "@prokerala/api-client": "^0.1.2",
+    "astrology-insights": "^1.0.6",
+    "astronomia": "^4.1.1",
+    "astronomy-engine": "^1.1.3",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.3",
+    "bottleneck": "^2.19.5",
+    "canvas": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "geocode-js": "^1.0.3",
+    "indian-astrology": "^1.0.4",
+    "jsonwebtoken": "^9.0.2",
+    "mhah-panchang": "^1.2.0",
+    "mongoose": "^8.9.5",
+    "node-fetch": "^3.3.2",
+    "node-geocoder": "^4.4.1",
+    "numerology": "^1.0.0",
+    "razorpay": "^2.9.5",
+    "react-tabs": "^6.1.0",
+    "suncalc": "^1.9.0",
+    "suncalc3": "^2.0.5",
+    "suntimes": "^6.0.3",
+    "swisseph-v2": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
