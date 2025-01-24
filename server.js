@@ -5,6 +5,7 @@ const connectDB = require('./config/db.js');
 const authRoutes = require('./routes/authRoutes.js');
 const astrologyRoutes = require('./routes/astrologyRoutes.js');
 const numerologyRoutes = require('./routes/numerologyRoutes.js');
+const subscriptionRoutes = require('./routes/subscriptionRoutes.js');
 const errorHandler = require('./middlewares/errorHandler.js');
 
 dotenv.config();
@@ -30,7 +31,7 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/astrology', astrologyRoutes);
 app.use('/api/numerology', numerologyRoutes);
-
+app.use('/api/subscription', subscriptionRoutes);
 
 // Handle undefined routes
 app.use((req, res, next) => {
