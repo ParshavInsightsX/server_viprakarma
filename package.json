@@ -35,7 +35,8 @@
     "suncalc": "^1.9.0",
     "suncalc3": "^2.0.5",
     "suntimes": "^6.0.3",
-    "swisseph-v2": "^1.0.3"
+    "swisseph-v2": "^1.0.3",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
